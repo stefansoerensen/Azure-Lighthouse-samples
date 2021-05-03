@@ -1,4 +1,4 @@
-{
+l{
     "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<to be filled out by MSP> Specify a title for your offer"
+            "defaultValue": "Medialine aG"
 
         },
         "mspOfferDescription": {
@@ -15,14 +15,14 @@
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<to be filled out by MSP> Provide a brief description of your offer"
+            "defaultValue": "Medialine AG -Delegated Resource Management"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<to be filled out by MSP> Provide your tenant id"
+            "defaultValue": "67872620-71eb-4d3a-99f8-f08f1e6a220b"
         },
         "authorizations": {
             "type": "array",
